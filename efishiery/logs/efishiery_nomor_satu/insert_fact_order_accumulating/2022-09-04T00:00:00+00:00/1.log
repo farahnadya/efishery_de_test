@@ -1,0 +1,199 @@
+[2022-09-05 12:45:57,493] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 12:45:57,574] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 12:45:57,574] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 12:45:57,575] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2022-09-05 12:45:57,576] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 12:45:57,626] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): insert_fact_order_accumulating> on 2022-09-04T00:00:00+00:00
+[2022-09-05 12:45:57,633] {standard_task_runner.py:52} INFO - Started process 12807 to run task
+[2022-09-05 12:45:57,639] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'efishiery_nomor_satu', 'insert_fact_order_accumulating', '2022-09-04T00:00:00+00:00', '--job-id', '179', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/soal_nomor_satu.py', '--cfg-path', '/tmp/tmp6qcrrjlh', '--error-file', '/tmp/tmpu0rp2tlx']
+[2022-09-05 12:45:57,664] {standard_task_runner.py:77} INFO - Job 179: Subtask insert_fact_order_accumulating
+[2022-09-05 12:45:57,817] {logging_mixin.py:104} INFO - Running <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [running]> on host 2b8e628fc16c
+[2022-09-05 12:45:57,957] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=farah
+AIRFLOW_CTX_DAG_ID=efishiery_nomor_satu
+AIRFLOW_CTX_TASK_ID=insert_fact_order_accumulating
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-04T00:00:00+00:00
+[2022-09-05 12:45:57,972] {base.py:74} INFO - Using connection to: id: efishery. Host: 172.17.0.1, Port: 5432, Schema: efishery, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:45:58,005] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:45:58,041] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:45:58,151] {logging_mixin.py:104} INFO - sukses
+[2022-09-05 12:45:58,152] {python.py:118} INFO - Done. Returned value was: None
+[2022-09-05 12:45:58,190] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=efishiery_nomor_satu, task_id=insert_fact_order_accumulating, execution_date=20220904T000000, start_date=20220905T124557, end_date=20220905T124558
+[2022-09-05 12:45:58,265] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-09-05 12:45:58,293] {local_task_job.py:146} INFO - Task exited with return code 0
+[2022-09-05 12:47:28,981] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 12:47:29,025] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 12:47:29,026] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 12:47:29,026] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2022-09-05 12:47:29,027] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 12:47:29,061] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): insert_fact_order_accumulating> on 2022-09-04T00:00:00+00:00
+[2022-09-05 12:47:29,067] {standard_task_runner.py:52} INFO - Started process 12858 to run task
+[2022-09-05 12:47:29,073] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'efishiery_nomor_satu', 'insert_fact_order_accumulating', '2022-09-04T00:00:00+00:00', '--job-id', '182', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/soal_nomor_satu.py', '--cfg-path', '/tmp/tmp5nmrof4p', '--error-file', '/tmp/tmpa0n_j4is']
+[2022-09-05 12:47:29,079] {standard_task_runner.py:77} INFO - Job 182: Subtask insert_fact_order_accumulating
+[2022-09-05 12:47:29,164] {logging_mixin.py:104} INFO - Running <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [running]> on host 2b8e628fc16c
+[2022-09-05 12:47:29,254] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=farah
+AIRFLOW_CTX_DAG_ID=efishiery_nomor_satu
+AIRFLOW_CTX_TASK_ID=insert_fact_order_accumulating
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-04T00:00:00+00:00
+[2022-09-05 12:47:29,267] {base.py:74} INFO - Using connection to: id: efishery. Host: 172.17.0.1, Port: 5432, Schema: efishery, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:47:29,296] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:47:29,325] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:47:29,364] {logging_mixin.py:104} INFO - sukses
+[2022-09-05 12:47:29,365] {python.py:118} INFO - Done. Returned value was: None
+[2022-09-05 12:47:29,401] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=efishiery_nomor_satu, task_id=insert_fact_order_accumulating, execution_date=20220904T000000, start_date=20220905T124728, end_date=20220905T124729
+[2022-09-05 12:47:29,475] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-09-05 12:47:29,486] {local_task_job.py:146} INFO - Task exited with return code 0
+[2022-09-05 12:49:18,064] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 12:49:18,206] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 12:49:18,207] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 12:49:18,208] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2022-09-05 12:49:18,209] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 12:49:18,312] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): insert_fact_order_accumulating> on 2022-09-04T00:00:00+00:00
+[2022-09-05 12:49:18,324] {standard_task_runner.py:52} INFO - Started process 12917 to run task
+[2022-09-05 12:49:18,332] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'efishiery_nomor_satu', 'insert_fact_order_accumulating', '2022-09-04T00:00:00+00:00', '--job-id', '184', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/soal_nomor_satu.py', '--cfg-path', '/tmp/tmpdyi2c4ky', '--error-file', '/tmp/tmpz43htrzo']
+[2022-09-05 12:49:18,339] {standard_task_runner.py:77} INFO - Job 184: Subtask insert_fact_order_accumulating
+[2022-09-05 12:49:18,432] {logging_mixin.py:104} INFO - Running <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [running]> on host 2b8e628fc16c
+[2022-09-05 12:49:18,519] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=farah
+AIRFLOW_CTX_DAG_ID=efishiery_nomor_satu
+AIRFLOW_CTX_TASK_ID=insert_fact_order_accumulating
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-04T00:00:00+00:00
+[2022-09-05 12:49:18,532] {base.py:74} INFO - Using connection to: id: efishery. Host: 172.17.0.1, Port: 5432, Schema: efishery, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:49:18,559] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:49:18,585] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:49:18,599] {taskinstance.py:1455} ERROR - insert or update on table "fact_order_accumulating" violates foreign key constraint "fact_order_accumulating_customer_id_fkey"
+DETAIL:  Key (customer_id)=(3923) is not present in table "dim_customer".
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/usecase/fact_order.py", line 9, in main_fact
+    insert_dwh_table(df)
+  File "/opt/airflow/dags/usecase/fact_order.py", line 64, in insert_dwh_table
+    cursor.execute(sql, tuple(row))
+psycopg2.errors.ForeignKeyViolation: insert or update on table "fact_order_accumulating" violates foreign key constraint "fact_order_accumulating_customer_id_fkey"
+DETAIL:  Key (customer_id)=(3923) is not present in table "dim_customer".
+
+[2022-09-05 12:49:18,608] {taskinstance.py:1503} INFO - Marking task as UP_FOR_RETRY. dag_id=efishiery_nomor_satu, task_id=insert_fact_order_accumulating, execution_date=20220904T000000, start_date=20220905T124918, end_date=20220905T124918
+[2022-09-05 12:49:18,824] {local_task_job.py:146} INFO - Task exited with return code 1
+[2022-09-05 12:52:13,587] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 12:52:13,632] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 12:52:13,633] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 12:52:13,633] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2022-09-05 12:52:13,634] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 12:52:13,673] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): insert_fact_order_accumulating> on 2022-09-04T00:00:00+00:00
+[2022-09-05 12:52:13,678] {standard_task_runner.py:52} INFO - Started process 13015 to run task
+[2022-09-05 12:52:13,684] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'efishiery_nomor_satu', 'insert_fact_order_accumulating', '2022-09-04T00:00:00+00:00', '--job-id', '188', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/soal_nomor_satu.py', '--cfg-path', '/tmp/tmpkfkruyad', '--error-file', '/tmp/tmppqghklko']
+[2022-09-05 12:52:13,689] {standard_task_runner.py:77} INFO - Job 188: Subtask insert_fact_order_accumulating
+[2022-09-05 12:52:13,782] {logging_mixin.py:104} INFO - Running <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [running]> on host 2b8e628fc16c
+[2022-09-05 12:52:13,900] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=farah
+AIRFLOW_CTX_DAG_ID=efishiery_nomor_satu
+AIRFLOW_CTX_TASK_ID=insert_fact_order_accumulating
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-04T00:00:00+00:00
+[2022-09-05 12:52:13,912] {base.py:74} INFO - Using connection to: id: efishery. Host: 172.17.0.1, Port: 5432, Schema: efishery, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:52:13,947] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:52:13,977] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:52:14,021] {logging_mixin.py:104} INFO - sukses
+[2022-09-05 12:52:14,021] {python.py:118} INFO - Done. Returned value was: None
+[2022-09-05 12:52:14,064] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=efishiery_nomor_satu, task_id=insert_fact_order_accumulating, execution_date=20220904T000000, start_date=20220905T125213, end_date=20220905T125214
+[2022-09-05 12:52:14,271] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-09-05 12:52:14,297] {local_task_job.py:146} INFO - Task exited with return code 0
+[2022-09-05 12:53:45,088] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 12:53:45,132] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 12:53:45,132] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 12:53:45,133] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2022-09-05 12:53:45,133] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 12:53:45,165] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): insert_fact_order_accumulating> on 2022-09-04T00:00:00+00:00
+[2022-09-05 12:53:45,170] {standard_task_runner.py:52} INFO - Started process 13056 to run task
+[2022-09-05 12:53:45,176] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'efishiery_nomor_satu', 'insert_fact_order_accumulating', '2022-09-04T00:00:00+00:00', '--job-id', '191', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/soal_nomor_satu.py', '--cfg-path', '/tmp/tmphj8q0cq9', '--error-file', '/tmp/tmp3cgx6x5c']
+[2022-09-05 12:53:45,180] {standard_task_runner.py:77} INFO - Job 191: Subtask insert_fact_order_accumulating
+[2022-09-05 12:53:45,270] {logging_mixin.py:104} INFO - Running <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [running]> on host 2b8e628fc16c
+[2022-09-05 12:53:45,373] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=farah
+AIRFLOW_CTX_DAG_ID=efishiery_nomor_satu
+AIRFLOW_CTX_TASK_ID=insert_fact_order_accumulating
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-04T00:00:00+00:00
+[2022-09-05 12:53:45,390] {base.py:74} INFO - Using connection to: id: efishery. Host: 172.17.0.1, Port: 5432, Schema: efishery, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:53:45,419] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:53:45,441] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:53:45,447] {logging_mixin.py:104} INFO - sukses
+[2022-09-05 12:53:45,447] {python.py:118} INFO - Done. Returned value was: None
+[2022-09-05 12:53:45,566] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=efishiery_nomor_satu, task_id=insert_fact_order_accumulating, execution_date=20220904T000000, start_date=20220905T125345, end_date=20220905T125345
+[2022-09-05 12:53:45,647] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-09-05 12:53:45,668] {local_task_job.py:146} INFO - Task exited with return code 0
+[2022-09-05 13:06:56,321] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 13:06:56,432] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 13:06:56,433] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 13:06:56,434] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2022-09-05 13:06:56,434] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 13:06:56,612] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): insert_fact_order_accumulating> on 2022-09-04T00:00:00+00:00
+[2022-09-05 13:06:56,620] {standard_task_runner.py:52} INFO - Started process 13464 to run task
+[2022-09-05 13:06:56,628] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'efishiery_nomor_satu', 'insert_fact_order_accumulating', '2022-09-04T00:00:00+00:00', '--job-id', '202', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/soal_nomor_satu.py', '--cfg-path', '/tmp/tmpywb7dl93', '--error-file', '/tmp/tmps4n20bkp']
+[2022-09-05 13:06:56,633] {standard_task_runner.py:77} INFO - Job 202: Subtask insert_fact_order_accumulating
+[2022-09-05 13:06:56,759] {logging_mixin.py:104} INFO - Running <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [running]> on host 2b8e628fc16c
+[2022-09-05 13:06:56,878] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=farah
+AIRFLOW_CTX_DAG_ID=efishiery_nomor_satu
+AIRFLOW_CTX_TASK_ID=insert_fact_order_accumulating
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-04T00:00:00+00:00
+[2022-09-05 13:06:56,900] {base.py:74} INFO - Using connection to: id: efishery. Host: 172.17.0.1, Port: 5432, Schema: efishery, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 13:06:56,937] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 13:06:56,968] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 13:06:56,978] {logging_mixin.py:104} INFO - sukses
+[2022-09-05 13:06:56,981] {python.py:118} INFO - Done. Returned value was: None
+[2022-09-05 13:06:57,027] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=efishiery_nomor_satu, task_id=insert_fact_order_accumulating, execution_date=20220904T000000, start_date=20220905T130656, end_date=20220905T130657
+[2022-09-05 13:06:57,126] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-09-05 13:06:57,161] {local_task_job.py:146} INFO - Task exited with return code 0
+[2022-09-05 13:08:36,932] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 13:08:36,985] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 13:08:36,986] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 13:08:36,987] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2022-09-05 13:08:36,988] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 13:08:37,034] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): insert_fact_order_accumulating> on 2022-09-04T00:00:00+00:00
+[2022-09-05 13:08:37,040] {standard_task_runner.py:52} INFO - Started process 13538 to run task
+[2022-09-05 13:08:37,046] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'efishiery_nomor_satu', 'insert_fact_order_accumulating', '2022-09-04T00:00:00+00:00', '--job-id', '214', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/soal_nomor_satu.py', '--cfg-path', '/tmp/tmpk6otft_o', '--error-file', '/tmp/tmpeq_msrsr']
+[2022-09-05 13:08:37,051] {standard_task_runner.py:77} INFO - Job 214: Subtask insert_fact_order_accumulating
+[2022-09-05 13:08:37,185] {logging_mixin.py:104} INFO - Running <TaskInstance: efishiery_nomor_satu.insert_fact_order_accumulating 2022-09-04T00:00:00+00:00 [running]> on host 2b8e628fc16c
+[2022-09-05 13:08:37,367] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=farah
+AIRFLOW_CTX_DAG_ID=efishiery_nomor_satu
+AIRFLOW_CTX_TASK_ID=insert_fact_order_accumulating
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-04T00:00:00+00:00
+[2022-09-05 13:08:37,381] {base.py:74} INFO - Using connection to: id: efishery. Host: 172.17.0.1, Port: 5432, Schema: efishery, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 13:08:37,409] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 13:08:37,484] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 13:08:37,525] {logging_mixin.py:104} INFO - sukses
+[2022-09-05 13:08:37,527] {python.py:118} INFO - Done. Returned value was: None
+[2022-09-05 13:08:37,581] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=efishiery_nomor_satu, task_id=insert_fact_order_accumulating, execution_date=20220904T000000, start_date=20220905T130836, end_date=20220905T130837
+[2022-09-05 13:08:37,698] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-09-05 13:08:37,746] {local_task_job.py:146} INFO - Task exited with return code 0

@@ -1,0 +1,73 @@
+[2022-09-05 11:14:07,802] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.create_table 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 11:14:07,860] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.create_table 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 11:14:07,861] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 11:14:07,862] {taskinstance.py:1043} INFO - Starting attempt 5 of 6
+[2022-09-05 11:14:07,862] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 11:14:07,894] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): create_table> on 2022-09-04T00:00:00+00:00
+[2022-09-05 11:14:07,901] {standard_task_runner.py:52} INFO - Started process 10086 to run task
+[2022-09-05 11:14:07,909] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'efishiery_nomor_satu', 'create_table', '2022-09-04T00:00:00+00:00', '--job-id', '157', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/soal_nomor_satu.py', '--cfg-path', '/tmp/tmplikb4qtd', '--error-file', '/tmp/tmp21c82s5k']
+[2022-09-05 11:14:07,914] {standard_task_runner.py:77} INFO - Job 157: Subtask create_table
+[2022-09-05 11:14:08,015] {logging_mixin.py:104} INFO - Running <TaskInstance: efishiery_nomor_satu.create_table 2022-09-04T00:00:00+00:00 [running]> on host 2b8e628fc16c
+[2022-09-05 11:14:08,083] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=farah
+AIRFLOW_CTX_DAG_ID=efishiery_nomor_satu
+AIRFLOW_CTX_TASK_ID=create_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-04T00:00:00+00:00
+[2022-09-05 11:14:08,099] {base.py:74} INFO - Using connection to: id: efishery. Host: 172.17.0.1, Port: 5432, Schema: efishery, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 11:14:08,125] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 11:14:08,185] {logging_mixin.py:104} INFO -      id  name
+0  3923   Ani
+1  3924  Budi
+2  3925  Caca
+[2022-09-05 11:14:08,187] {python.py:118} INFO - Done. Returned value was: None
+[2022-09-05 11:14:08,233] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=efishiery_nomor_satu, task_id=create_table, execution_date=20220904T000000, start_date=20220905T111407, end_date=20220905T111408
+[2022-09-05 11:14:08,333] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-09-05 11:14:08,362] {local_task_job.py:146} INFO - Task exited with return code 0
+[2022-09-05 11:33:59,783] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.create_table 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 11:33:59,899] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.create_table 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 11:33:59,900] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 11:33:59,900] {taskinstance.py:1043} INFO - Starting attempt 5 of 6
+[2022-09-05 11:33:59,901] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 11:33:59,952] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): create_table> on 2022-09-04T00:00:00+00:00
+[2022-09-05 11:33:59,966] {standard_task_runner.py:52} INFO - Started process 10683 to run task
+[2022-09-05 11:33:59,979] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'efishiery_nomor_satu', 'create_table', '2022-09-04T00:00:00+00:00', '--job-id', '165', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/soal_nomor_satu.py', '--cfg-path', '/tmp/tmpw71heebz', '--error-file', '/tmp/tmp17c9z14d']
+[2022-09-05 11:33:59,989] {standard_task_runner.py:77} INFO - Job 165: Subtask create_table
+[2022-09-05 11:34:00,277] {logging_mixin.py:104} INFO - Running <TaskInstance: efishiery_nomor_satu.create_table 2022-09-04T00:00:00+00:00 [running]> on host 2b8e628fc16c
+[2022-09-05 11:34:00,349] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=farah
+AIRFLOW_CTX_DAG_ID=efishiery_nomor_satu
+AIRFLOW_CTX_TASK_ID=create_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-04T00:00:00+00:00
+[2022-09-05 11:34:00,367] {base.py:74} INFO - Using connection to: id: efishery. Host: 172.17.0.1, Port: 5432, Schema: efishery, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 11:34:00,395] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 11:34:00,424] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 11:34:00,432] {taskinstance.py:1455} ERROR - syntax error at or near "`"
+LINE 1: INSERT INTO dim_customer (id`,`name) VALUES (3923,'Ani')
+                                    ^
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/usecase/soal_nomor_satu.py", line 9, in main
+    insert_dwh_table(df)
+  File "/opt/airflow/dags/usecase/soal_nomor_satu.py", line 53, in insert_dwh_table
+    cursor.execute(sql, tuple(row))
+psycopg2.errors.SyntaxError: syntax error at or near "`"
+LINE 1: INSERT INTO dim_customer (id`,`name) VALUES (3923,'Ani')
+                                    ^
+
+[2022-09-05 11:34:00,440] {taskinstance.py:1503} INFO - Marking task as UP_FOR_RETRY. dag_id=efishiery_nomor_satu, task_id=create_table, execution_date=20220904T000000, start_date=20220905T113359, end_date=20220905T113400
+[2022-09-05 11:34:00,521] {local_task_job.py:146} INFO - Task exited with return code 1

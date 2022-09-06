@@ -1,0 +1,26 @@
+[2022-09-05 12:12:58,158] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_dim_customer 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 12:12:58,213] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: efishiery_nomor_satu.insert_dim_customer 2022-09-04T00:00:00+00:00 [queued]>
+[2022-09-05 12:12:58,214] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 12:12:58,215] {taskinstance.py:1043} INFO - Starting attempt 2 of 3
+[2022-09-05 12:12:58,216] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-05 12:12:58,326] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): insert_dim_customer> on 2022-09-04T00:00:00+00:00
+[2022-09-05 12:12:58,348] {standard_task_runner.py:52} INFO - Started process 11846 to run task
+[2022-09-05 12:12:58,354] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'efishiery_nomor_satu', 'insert_dim_customer', '2022-09-04T00:00:00+00:00', '--job-id', '176', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/soal_nomor_satu.py', '--cfg-path', '/tmp/tmppkhslqk8', '--error-file', '/tmp/tmpxoap_ubh']
+[2022-09-05 12:12:58,360] {standard_task_runner.py:77} INFO - Job 176: Subtask insert_dim_customer
+[2022-09-05 12:12:58,557] {logging_mixin.py:104} INFO - Running <TaskInstance: efishiery_nomor_satu.insert_dim_customer 2022-09-04T00:00:00+00:00 [running]> on host 2b8e628fc16c
+[2022-09-05 12:12:58,654] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=farah
+AIRFLOW_CTX_DAG_ID=efishiery_nomor_satu
+AIRFLOW_CTX_TASK_ID=insert_dim_customer
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-04T00:00:00+00:00
+[2022-09-05 12:12:58,671] {base.py:74} INFO - Using connection to: id: efishery. Host: 172.17.0.1, Port: 5432, Schema: efishery, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:12:58,700] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:12:58,734] {base.py:74} INFO - Using connection to: id: efishery_dwh. Host: 172.17.0.1, Port: 5432, Schema: efishery_dwh, Login: airflow, Password: XXXXXXXX, extra: None
+[2022-09-05 12:12:58,747] {logging_mixin.py:104} INFO - sukses
+[2022-09-05 12:12:58,753] {python.py:118} INFO - Done. Returned value was: None
+[2022-09-05 12:12:58,813] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=efishiery_nomor_satu, task_id=insert_dim_customer, execution_date=20220904T000000, start_date=20220905T121258, end_date=20220905T121258
+[2022-09-05 12:12:58,923] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-09-05 12:12:58,969] {local_task_job.py:146} INFO - Task exited with return code 0
